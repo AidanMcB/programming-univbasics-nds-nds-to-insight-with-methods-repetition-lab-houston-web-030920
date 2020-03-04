@@ -46,7 +46,7 @@ def total_gross(source)
  
   answer = 0 
   d_i = 0 
-  while d_i < totals.length do 
+  while d_i < source.length do 
    answer += gross_for_director(source[d_i])
     d_i += 1 
   end 
