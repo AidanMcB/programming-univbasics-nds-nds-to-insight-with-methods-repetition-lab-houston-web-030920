@@ -46,7 +46,15 @@ def total_gross(source)
   totals = directors_totals(source) 
   names = list_of_directors(source)
   answer = 0 
-  if names
-end
-
+  d_i = 0 
+  while d_i < totals.length do 
+    n_i = 0 
+    while n_i < totals[d_i].length 
+      answer += totals[d_i][n_i] 
+      n_i += 1 
+    end 
+    d_i += 1 
+  end 
+answer 
+end 
 
