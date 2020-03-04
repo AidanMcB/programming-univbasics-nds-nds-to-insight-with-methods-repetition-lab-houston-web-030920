@@ -48,7 +48,7 @@ def total_gross(source)
   answer = 0 
   d_i = 0 
   while d_i < totals.length do 
-   
+   answer += 
     end 
     d_i += 1 
   end 
