@@ -47,7 +47,7 @@ def total_gross(source)
   answer = 0 
   d_i = 0 
     while d_i < totals.length do 
-      answer += totals[d_i]
+      answer += totals[d_i][:worldwide_gross]
       d_i += 1 
     end 
     answer
